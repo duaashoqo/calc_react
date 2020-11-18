@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+.app{
+  
+  
+  margin-bottom: 3px;
+  
+ 
+}
+.lc{
+  width: 350px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.label{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: 50px;
+  margin-bottom: 20px;
+  padding-right: 5px;
+  width: 350px;
+  height: 160px;
+  border: solid 2px black;
+  margin-left: 5px;
+}
+
+.table{
+  margin-left: 5px;
+}
+
+.bAC{
+  border-radius: 50%;
+  margin-left: 6px;
+  background-color:#8490FF;
   color: white;
+  width: 80px;
+  height: 80px;
+  font-size: 30px;
+  padding-right: 7px;
+  font-weight: bold;
+  margin-bottom: 7px;
 }
 
-.App-link {
-  color: #61dafb;
+.bpm,.bmod{
+  border-radius: 50%;
+  margin-left: 6px;
+  background-color:#8490FF;
+  color: white;
+  width: 80px;
+  height: 80px;
+  font-size: 30px;
+  padding-right: 7px;
+  font-weight: bolder;
+  margin-bottom: 7px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.zero{
+  border-radius: 50px;
+  margin-left: 6px;
+  background-color:  #212638;
+  color: white;
+  width: 170px;
+  height: 80px;
+  font-size: 30px;
+  padding-right: 7px;
+  font-weight: bolder;
+  margin-bottom: 7px;
+
+  
 }
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.dot{
+ background-color:  #212638;
+ border-radius: 50%;
+ margin-left: 6px;
+ color: white;
+ width: 80px;
+ height: 80px;
+ font-size: 30px;
+ padding-right: 7px;
+ font-weight: bolder;
+ margin-bottom: 7px;
+}
+.bdiv,.mult,.plus,.minus,.equal{
+  border-radius: 50%;
+  margin-left: 6px;
+  color: white;
+  width: 80px;
+  height: 80px;
+  font-size: 30px;
+  padding-right: 7px;
+  font-weight: bolder;
+  margin-bottom: 7px;
+  background-color: #34509E;;
+}
+
+
+
+
+
+
